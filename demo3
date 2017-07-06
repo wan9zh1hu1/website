@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>作业3</title>
+	<style type="text/css">
+		label{
+			font-size: 20px;
+		}
+		input{
+			font-size: 16px;
+		}
+		#qianming{
+			position: relative;
+			top: -70px;
+		}
+		#nicheng{
+			height: 42px;
+			width: 201px;
+		}
+		form{
+			font-size: 18px;
+			font-family: "黑体","微软雅黑",serif;
+		}
+		#submit{
+			height: 44px;
+			width: 124px;
+			background-color: #d853b7;
+			position: relative;
+			left: 81px;
+			font-size: 20px;
+			color: #ffffff;
+
+		}
+		#xueli{
+			height: 42px;
+			width: 97px;
+			font-size: 20px;
+		}
+		option{
+			font-size: 18px;
+		}
+		#qianmingarea{
+			height: 88px;
+			width: 308px;
+		}
+
+	</style>
+</head>
+<body>
+	<form>
+		<label>头像&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="file"><br><br>
+		<label>昵称&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text" id="nicheng"><br><br>
+		<label>学历&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+		<select id="xueli">
+				<option>大专</option>
+				<option>本科</option>
+		</select><br><br><br>
+		<label>性别&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="radio" name="" value="" checked="">男<input type="radio" name="">女<br><br><br>
+		<label>爱好&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="checkbox" name="" checked="">电影<input type="checkbox" name="">摄影<input type="checkbox" name="">音乐<input type="checkbox" name="" checked="">阅读<br><br><br>
+		<label id="qianming">签名&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><textarea id="qianmingarea" ></textarea><br><br>
+		<input id="submit" type="submit" name="" value="保存">
+	</form>
+</body>
+</html>
